@@ -1,0 +1,18 @@
+customers 23,570; cohorts {Period('1997-01', 'M'): np.int64(7846), Period('1997-02', 'M'): np.int64(8476), Period('1997-03', 'M'): np.int64(7248)}
+repeat-purchase rate by months since first purchase (avg of cohorts):
+k
+1     0.148
+2     0.114
+3     0.100
+4     0.093
+5     0.088
+6     0.081
+7     0.076
+8     0.079
+9     0.080
+10    0.076
+11    0.070
+12    0.076
+best-customer base rate 20.0%; best customers' share of next-year revenue 89.7%
+Logistic regression: AUC 0.773, top-decile captures 30.8% of best customers (3.1x lift)
+Gradient boosting: AUC 0.770, top-decile captures 30.8% of best customers (3.1x lift)

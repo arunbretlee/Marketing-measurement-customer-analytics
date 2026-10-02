@@ -1,0 +1,18 @@
+max r_hat 1.003, divergences 0
+in-sample R^2 0.906, in-sample MAPE 6.6%, 26-week holdout MAPE 4.0%
+media share of revenue: 13.0%
+                spend  contribution  roas  ...  roas_hi  spend_share  effect_share
+TV       2,898,601.55 17,659,647.97  6.09  ...     8.21         0.21          0.41
+OOH      8,715,618.67  7,829,197.52  0.90  ...     1.74         0.64          0.18
+Print      693,175.91  6,195,088.23  8.94  ...    15.55         0.05          0.14
+Facebook   382,352.70  5,375,662.76 14.06  ...    27.82         0.03          0.12
+Search     992,986.67  6,409,747.57  6.46  ...    14.90         0.07          0.15
+[5 rows x 7 columns]
+weekly budget 75,180; optimized sums to 75,180
+           current  optimized  change
+TV       15,926.38  23,889.57    0.50
+OOH      47,888.01  34,242.09   -0.28
+Print     3,808.66   5,712.99    0.50
+Facebook  2,100.84   3,151.26    0.50
+Search    5,455.97   8,183.96    0.50
+response gain at same budget: mean +25.3%, 90% interval +18.4% to +31.7%, P(gain>0) 100%
